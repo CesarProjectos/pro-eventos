@@ -1,0 +1,20 @@
+[
+  {
+    "id": "insuflaveis",
+    "name": "Insufláveis",
+    "description": "Aluguer de insufláveis para festas e eventos.",
+    "status": "ativo"
+  },
+  {
+    "id": "som-luzes",
+    "name": "Som e Luzes",
+    "description": "Aluguer de equipamentos de som e iluminação.",
+    "status": "ativo"
+  },
+  {
+    "id": "karaoke-bailes",
+    "name": "Karaoke e Bailes",
+    "description": "Serviços de animação musical e eventos.",
+    "status": "ativo"
+  }
+]
