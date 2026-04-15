@@ -4,35 +4,109 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pro-Eventos</title>
+  <meta name="description" content="Insufláveis, som e luzes, karaoke e bailes para diferentes tipos de evento." />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-  <header>
-    <h1>Pro-Eventos</h1>
-    <p>Insufláveis, som e luzes, karaoke e bailes.</p>
+
+  <header class="hero" id="topo">
+    <div class="hero-media">
+      <video
+        id="heroVideo"
+        class="hero-video"
+        autoplay
+        muted
+        playsinline
+        preload="auto"
+      >
+        <source src="img/animacao-proeventos.mp4" type="video/mp4" />
+        O seu navegador não suporta vídeo HTML5.
+      </video>
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-content wrap">
+      <p class="hero-kicker">Promoção, animação e organização</p>
+      <h1>Pro-Eventos</h1>
+      <p class="hero-text">
+        Insufláveis, som e luzes, karaoke e bailes para diferentes tipos de evento.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#servicos" class="btn btn-primary">Ver serviços</a>
+        <a href="#pedido" class="btn btn-secondary">Pedir reserva</a>
+      </div>
+    </div>
   </header>
 
-  <main>
-    <section>
-      <h2>Os nossos serviços</h2>
-      <div>
-        <article>
+  <main class="wrap">
+    <section class="section" id="servicos">
+      <div class="section-head">
+        <p class="section-kicker">O que fazemos</p>
+        <h2>Os nossos serviços</h2>
+        <p>
+          Soluções para festas, eventos privados e animação com equipamento e apoio profissional.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="service-icon">🎈</div>
           <h3>Insufláveis</h3>
-          <p>Aluguer para festas e eventos.</p>
+          <p>Aluguer de insufláveis para festas infantis, aniversários e eventos familiares.</p>
+          <a href="#pedido" class="card-link">Pedir reserva</a>
         </article>
 
-        <article>
+        <article class="service-card">
+          <div class="service-icon">🔊</div>
           <h3>Som e Luzes</h3>
-          <p>Equipamentos para diferentes tipos de evento.</p>
+          <p>Equipamentos de som e iluminação para diferentes tipos de evento e ambiente.</p>
+          <a href="#pedido" class="card-link">Pedir reserva</a>
         </article>
 
-        <article>
+        <article class="service-card">
+          <div class="service-icon">🎤</div>
           <h3>Karaoke e Bailes</h3>
-          <p>Soluções de animação e música.</p>
+          <p>Animação musical, karaoke e apoio para momentos divertidos e memoráveis.</p>
+          <a href="#pedido" class="card-link">Pedir reserva</a>
         </article>
       </div>
     </section>
+
+    <section class="section section-alt" id="pedido">
+      <div class="section-head">
+        <p class="section-kicker">Pedido de reserva</p>
+        <h2>Peça informações</h2>
+        <p>
+          Esta área será ligada ao formulário de reserva. Para já, já fica montada como base da homepage.
+        </p>
+      </div>
+
+      <div class="booking-box">
+        <div class="booking-item">
+          <strong>Serviço</strong>
+          <span>Insufláveis, som e luzes, karaoke ou bailes</span>
+        </div>
+
+        <div class="booking-item">
+          <strong>Disponibilidade</strong>
+          <span>Sujeita a confirmação</span>
+        </div>
+
+        <div class="booking-item">
+          <strong>Próxima fase</strong>
+          <span>Formulário + calendário + bloqueio de equipamentos</span>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© <span id="year"></span> Pro-Eventos</p>
+      <a href="#topo">Voltar ao topo</a>
+    </div>
+  </footer>
 
   <script src="assets/js/app.js"></script>
 </body>
