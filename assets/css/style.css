@@ -52,7 +52,7 @@ a{
   min-height:360px;
   background:#06101f;
   overflow:hidden;
-  min-height:220px;
+  min-height:200px;
 }
 
 .hero-video{
@@ -61,7 +61,7 @@ a{
   min-height:360px;
   object-fit:cover;
   display:block;
-  min-height:220px;
+  min-height:200px;
 }
 
 .hero-overlay{
